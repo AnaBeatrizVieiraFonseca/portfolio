@@ -1,0 +1,41 @@
+.mobile-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f8f8f8;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-header {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.mobile-main {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.mobile-footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .mobile-main {
+    font-size: 1.2rem;
+    padding: 2rem 0.5rem;
+  }
+  .mobile-header, .mobile-footer {
+    font-size: 1.1rem;
+    padding: 1rem 0.5rem;
+  }
+}
